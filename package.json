@@ -1,7 +1,7 @@
 {
   "name": "gulp-dry",
   "description": "Gulp plugin for Dry, a new template engine with advanced inheritance features.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "homepage": "https://github.com/jonschlinkert/gulp-dry",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/gulp-dry",
@@ -26,7 +26,7 @@
     "gulp"
   ],
   "dependencies": {
-    "dry": "^0.2.0",
+    "dry": "^0.2.1",
     "extend-shallow": "^2.0.1",
     "file-contents": "^0.3.2",
     "has-glob": "^0.1.1",

@@ -9,8 +9,8 @@ Gulp plugin for Dry, a new template engine with advanced inheritance features.
 - [Examples](#examples)
   * [Blocks](#blocks)
   * [Layouts](#layouts)
+  * [Layout body tag](#layout-body-tag)
   * [Layout body block](#layout-body-block)
-  * [Layout body block](#layout-body-block-1)
 - [About](#about)
   * [Related projects](#related-projects)
   * [Contributing](#contributing)
@@ -117,7 +117,7 @@ Layouts are used for "wrapping" files with common code or content. Layouts can a
 * text nodes from child templates that do not belong to a specific block will be rendered into the `body` block of the parent layout
 * layouts may be defined using a `{% body %}` tag, **or** a `{% block "body" %} {% endblock %}` tag
 
-### Layout body block
+### Layout body tag
 
 Example layout template with a `body` tag:
 

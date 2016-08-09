@@ -1,0 +1,67 @@
+{
+  "name": "gulp-dry",
+  "description": "Gulp plugin for Dry, a new template engine with advanced inheritance features.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/gulp-dry",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/gulp-dry",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/gulp-dry/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "index.js",
+    "utils.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "dry",
+    "gulp"
+  ],
+  "dependencies": {
+    "dry": "^0.2.0",
+    "extend-shallow": "^2.0.1",
+    "file-contents": "^0.3.2",
+    "has-glob": "^0.1.1",
+    "lazy-cache": "^2.0.1",
+    "matched": "^0.4.3",
+    "through2": "^2.0.1",
+    "vinyl": "^1.2.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.10",
+    "mocha": "^3.0.2"
+  },
+  "verb": {
+    "toc": true,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "dry",
+        "matched",
+        "is-glob"
+      ]
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme",
+      "dry"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}

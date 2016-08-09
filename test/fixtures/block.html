@@ -1,0 +1,9 @@
+{% extends "basic" %}
+
+{% foo "header" %}
+header: "foo.html"
+{% endfoo %}
+
+{% block "header" %}
+header: "block.html"
+{% endblock %}
